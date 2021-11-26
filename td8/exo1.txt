@@ -1,0 +1,21 @@
+1. from tkinter import *
+
+tkinter est une librairie. On a donc besoin de l'importer pour l'utiliser. On pourrait faire import tkinter, mais on va beaucoup l'utiliser alors on ne veut pas réécrire "tkinter." à chaque utilisation de fonction/classe de tkinter. Ainsi on n'aura qu'à écrire directement les noms des classes/fonctions.
+
+2. fenetre = Tk() //création d'une instance de la classe Tk() afin d'avoir une fenêtre 
+
+fenetre.title("Hello") //appel de la méthode title pour afficher "Hello" en haut du cadre de la fenêtre
+
+fenetre.geometry('640x480') //appel de la méthode geometry pour définir la taille de la fenêtre en pixel
+
+3. A l'exécution, la fenêtre prend automatiquement la taille minimale permettant de voir entièrement tous les widgets.
+
+4. On peut redimensionner la fenêtre en hauteur et en largeur.
+
+5. Les widgets (window gadget) sont des objets graphiques permettant à l'utilisateur d'interagir avec le programme Python de manière conviviale. Ils font partie de la fenêtre.
+widgets dans ce programme : 1 Label (étiquette), 1 Button (bouton), 1 Entry (entrée utilisateur)
+
+6. méthode pack()
+
+7. A priori le programme ne devrait pas être capable de gérer les évènements, c'est-à-dire que le bouton quitter ne devrait pas fonctionner. Cependant quand je lance le programme sans cette ligne, le bouton quitter fonctionne toujours, alors en pratique il ne se passe rien de différent si on oublie cette ligne.
+
